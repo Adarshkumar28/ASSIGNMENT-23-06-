@@ -1,0 +1,26 @@
+import java.util.*;
+class Seven
+{
+public static void main(String[] args)
+{
+Scanner in=new Scanner(System.in);
+System.out.println("enter side1");
+int side1=in.nextInt();
+System.out.println("enter side2");
+int side2=in.nextInt();
+System.out.println("enter side3");
+int side3=in.nextInt();
+
+if(side1==side2 && side2==side3 && side3==side1)
+{
+System.out.println("This is Equilaterial triangle");
+}
+else if(side1==side2)
+{
+System.out.println("This is isosceles triangle");
+}
+else
+{
+System.out.println("This is scalene triangle");
+}
+}}

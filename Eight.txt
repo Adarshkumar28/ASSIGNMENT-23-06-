@@ -1,0 +1,22 @@
+import java.util.*;
+class Eight
+{
+public static void main(String[] args)
+{
+Scanner in=new Scanner(System.in);
+System.out.println("enter the cost value");
+int cv=in.nextInt();
+System.out.println("enter the sold value");
+int sv=in.nextInt();
+
+if(cv<sv)
+{
+int profit=sv-cv;
+System.out.println("the profit is=:"+profit);
+}
+else if(cv>sv)
+{
+int loss=sv-cv;
+System.out.println("the loss is=:"+loss);
+}
+}}

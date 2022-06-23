@@ -1,0 +1,50 @@
+import java.util.*;
+class Nine
+{
+public static void main(String[] args)
+{
+Scanner in=new Scanner(System.in);
+double phy,chem,bio,math,comp,totalno,scored,percentage;
+System.out.println("the total number is=");
+totalno=in.nextDouble();
+System.out.println("the phy number is=");
+phy=in.nextDouble();
+System.out.println("the chem number is=");
+chem=in.nextDouble();
+System.out.println("the bio number is=");
+bio=in.nextDouble();
+System.out.println("the math number is=");
+math=in.nextDouble();
+System.out.println("the comp number is=");
+comp=in.nextDouble();
+scored=(phy+chem+bio+math+comp);
+System.out.println("the scored mark is=:"+scored);
+percentage=(scored*(100/totalno));
+System.out.println("the percentage is=:"+percentage);
+
+if(percentage>=90)
+{
+System.out.println("grade a");
+}
+else if(percentage>=80 && percentage<90)
+{
+System.out.println("grade b");
+}
+else if(percentage>=70 && percentage<80)
+{
+System.out.println("grade c");
+}
+else if(percentage>=60 && percentage<70)
+{
+System.out.println("grade d");
+}
+else if(percentage>=40 && percentage<60)
+{
+System.out.println("grade e");
+}
+else if(percentage<40)
+{
+System.out.println("grade f");
+}
+
+}}

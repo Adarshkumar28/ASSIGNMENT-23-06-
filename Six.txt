@@ -1,0 +1,22 @@
+import java.util.*;
+class Six
+{
+public static void main(String[] args)
+{
+Scanner in=new Scanner(System.in);
+System.out.println("enter any letter");
+int letter=in.next().charAt(0);
+
+if(letter>='a' && letter<='z')
+{
+System.out.println("This is lower case alphabet");
+}
+else if(letter>='A' && letter<='Z')
+{
+System.out.println("This is upper case alphabet");
+}
+else
+{
+System.out.println("This is special symbol");
+}
+}}

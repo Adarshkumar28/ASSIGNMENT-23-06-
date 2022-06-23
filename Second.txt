@@ -1,0 +1,23 @@
+import java.util.*;
+class second
+{
+public static void main(String[] args)
+{
+Scanner in=new Scanner(System.in);
+System.out.println("enter any letter");
+int letter=in.next().charAt(0);
+
+if(letter>=65 && letter<=90)
+{
+System.out.println("This is capital letter");
+}
+else if(letter>=97 && letter<=122)
+{
+System.out.println("This is small letter");
+}
+else 
+{
+System.out.println("This is special symbol");
+}
+}}
+

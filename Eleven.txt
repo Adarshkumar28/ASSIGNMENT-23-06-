@@ -1,0 +1,36 @@
+import java.util.Scanner;
+class Eleven
+{
+public static void main(String[] args)
+{
+Scanner in=new Scanner(System.in);
+double unit,bill,totalbill;
+System.out.println("enter the unit");
+unit=in.nextDouble();
+
+if(unit>=1 && unit<=50)
+{
+bill=(unit*0.50);
+totalbill=(bill+(bill*0.20));
+System.out.println("The total electricity bill=:"+totalbill);
+}
+else if(unit>=51 && unit<=150)
+{
+bill=(unit*0.75);
+totalbill=(bill+(bill*0.20));
+System.out.println("the total electricity bill is:"+totalbill);
+}
+else if(unit>=151 && unit<=250)
+{
+bill=(unit*1.20);
+totalbill=(bill+(bill*0.20));
+System.out.println("the total electricity bill is:"+totalbill);
+}
+else if(unit>250)
+{
+bill=(unit*1.50);
+totalbill=(bill+(bill*0.20));
+System.out.println("the total electricity bill is:"+totalbill);
+}
+}}
+
